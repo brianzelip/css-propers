@@ -1,0 +1,25 @@
+.max-width--auto: { max-width: auto; }
+.max-width--0: { max-width: 0; }
+.max-width--100vw: { max-width: 100vw; }
+.max-width--100per: { max-width: 100%; }
+
+
+/*
+
+Syntax
+@viewport {
+    max-width: 320px;
+}
+Values
+
+auto
+The used value is calculated from the other CSS descriptors' values.
+<length>
+A non-negative absolute or relative length.
+<percentage>
+A percentage value relative to the width or height of the initial viewport at zoom factor 1.0, for horizontal and vertical lengths respectively. Must be non-negative.
+Formal syntax
+
+auto | <length> | <percentage>
+
+*/

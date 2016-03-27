@@ -1,0 +1,46 @@
+.margin-left--auto: { margin-left: auto; }
+.margin-left--inherit: { margin-left: inherit; }
+.margin-left--initial: { margin-left: initial; }
+.margin-left--unset: { margin-left: unset; }
+.margin-left--0: { margin-left: 0; }
+.margin-left--1: { margin-left: .5rem; }
+.margin-left--2: { margin-left: 1rem; }
+.margin-left--3: { margin-left: 2rem; }
+.margin-left--4: { margin-left: 3rem; }
+.margin-left--5: { margin-left: 4rem; }
+.margin-left--6: { margin-left: 5rem; }
+.margin-left--7: { margin-left: 6rem; }
+.margin-left--8: { margin-left: 7rem; }
+.margin-left--9: { margin-left: 8rem; }
+.margin-left--10: { margin-left: 9rem; }
+.margin-left--11: { margin-left: 10rem; }
+
+/*
+
+Syntax
+/* <length> values */
+/*margin-left: 10px;  /* An absolute length */
+/*margin-left: 1em;   /* A length relative to the text size */
+/*margin-left: 5%;    /* A margin relative to the nearest block container's width */
+
+/* Keyword values */
+/*margin-left: auto;
+
+/* Global values */
+/*margin-left: inherit;
+margin-left: initial;
+margin-left: unset;
+Values
+
+<length>
+Is a <length> specifying a fixed width: it can be absolute width, e.g. in px, or a width relative to the text size, e.g. in em, or relative to the viewport size, e.g. in vh.
+<percentage>
+Is a <percentage> relative to the width of the nearest containing block.
+auto
+Is a keyword indicating that the left margin receives a share of the remaining space, defined mainly by the current layout mode.. If there several auto values for margin-left or margin-right, the calculated space is evenly distributed between all the auto values.
+
+Formal syntax
+
+<length> | <percentage> | auto
+
+*/

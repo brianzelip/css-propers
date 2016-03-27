@@ -1,0 +1,53 @@
+.min-width--auto: { min-width: auto; }
+.min-width--max-content: { min-width: max-content; }
+.min-width--min-content: { min-width: min-content; }
+.min-width--fit-content: { min-width: fit-content; }
+.min-width--fill-available: { min-width: fill-available; }
+.min-width--inherit: { min-width: inherit; }
+.min-width--initial: { min-width: initial; }
+.min-width--unset: { min-width: unset; }
+
+.min-width--0: { min-width: 0; }
+.min-width--100vh: { min-width: 100vh; }
+.min-width--100per: { min-width: 100%; }
+
+/*
+
+Syntax
+/* <length> value */
+/*min-width: 3.5em;
+
+/* <percentage> value */
+/*min-width: 10%;
+
+/* Keyword values */
+/*min-width: max-content;
+min-width: min-content;
+min-width: fit-content;
+min-width: fill-available;
+
+/* Global values */
+/*min-width: inherit;
+min-width: initial;
+min-width: unset;
+Values
+
+<length>
+The fixed minimum width. See <length> for possible units. Negative values make the declaration invalid.
+<percentage>
+The fixed minimum width expressed as a <percentage> of containing block's width. Negative values make the declaration invalid.
+auto
+The default minimum size for flex items, providing a more reasonable default than 0 for other layouts.
+max-content
+The intrinsic preferred width.
+min-content
+The intrinsic minimum width.
+fill-available
+The containing block width minus horizontal margin, border and padding. Some browsers implement an ancient name for this keyword, available.
+fit-content
+Defined as min(max-content, max(min-content, fill-available).
+Formal syntax
+
+<length> | <percentage> | auto | max-content | min-content | fit-content | fill-available
+
+*/

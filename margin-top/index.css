@@ -1,0 +1,45 @@
+.margin-top--auto: { margin-top: auto; }
+.margin-top--inherit: { margin-top: inherit; }
+.margin-top--initial: { margin-top: initial; }
+.margin-top--unset: { margin-top: unset; }
+.margin-top--0: { margin-top: 0; }
+.margin-top--1: { margin-top: .5rem; }
+.margin-top--2: { margin-top: 1rem; }
+.margin-top--3: { margin-top: 2rem; }
+.margin-top--4: { margin-top: 3rem; }
+.margin-top--5: { margin-top: 4rem; }
+.margin-top--6: { margin-top: 5rem; }
+.margin-top--7: { margin-top: 6rem; }
+.margin-top--8: { margin-top: 7rem; }
+.margin-top--9: { margin-top: 8rem; }
+.margin-top--10: { margin-top: 9rem; }
+.margin-top--11: { margin-top: 10rem; }
+
+/*
+
+Syntax
+/* <length> values */
+/*margin-top: 10px;        /* An absolute length */
+/*margin-top: 1em;         /* A length relative to the text size */
+/*margin-top: 5%;          /* A margin relative to the nearest block container's width */
+
+/* Keyword values */
+/*margin-top: auto;
+
+/* Global values */
+/*margin-top: inherit;
+margin-top: initial;
+margin-top: unset;
+Values
+
+<length>
+Specifies a fixed width. See <length> for possible values.
+<percentage>
+A <percentage> always relative to the width of the containing block.
+auto
+See margin.
+Formal syntax
+
+<length> | <percentage> | auto
+
+*/

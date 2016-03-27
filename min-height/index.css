@@ -1,0 +1,51 @@
+.min-height--auto: { min-height: auto; }
+.min-height--max-content: { min-height: max-content; }
+.min-height--min-content: { min-height: min-content; }
+.min-height--fit-content: { min-height: fit-content; }
+.min-height--fill-available: { min-height: fill-available; }
+.min-height--inherit: { min-height: inherit; }
+.min-height--initial: { min-height: initial; }
+.min-height--unset: { min-height: unset; }
+
+.min-height--0: { min-height: 0; }
+.min-height--100vh: { min-height: 100vh; }
+.min-height--100per: { min-height: 100%; }
+
+/*
+
+Syntax
+/* <length> value */
+/*min-height: 3.5em;
+
+/* <percentage> value */
+/*min-height: 10%;
+
+/* Keyword values */
+/*min-height: max-content;
+min-height: min-content;
+min-height: fit-content;
+min-height: fill-available;
+
+/* Global values */
+/*min-height: inherit;
+min-height: initial;
+min-height: unset;
+Values
+
+<length>
+The fixed minimum height. See <length> for possible units. Negative values make the declaration invalid.
+<percentage>
+The fixed minimum height expressed as a <percentage> of containing block's height. Negative values make the declaration invalid.
+max-content
+The intrinsic preferred height.
+min-content
+The intrinsic minimum height.
+fill-available
+The containing block height minus horizontal margin, border and padding. Some browsers implement an ancient name for this keyword, available.
+fit-content
+According CSS3 Box, this is a synonym of min-content. CSS3 Sizing defines a more complex algorithm, but no browser implements it, even in an experimental way.
+Formal syntax
+
+<length> | <percentage> | auto | max-content | min-content | fit-content | fill-available
+
+*/

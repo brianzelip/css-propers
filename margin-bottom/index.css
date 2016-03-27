@@ -1,0 +1,45 @@
+.margin-bottom--auto: { margin-bottom: auto; }
+.margin-bottom--inherit: { margin-bottom: inherit; }
+.margin-bottom--initial: { margin-bottom: initial; }
+.margin-bottom--unset: { margin-bottom: unset; }
+.margin-bottom--0: { margin-bottom: 0; }
+.margin-bottom--1: { margin-bottom: .5rem; }
+.margin-bottom--2: { margin-bottom: 1rem; }
+.margin-bottom--3: { margin-bottom: 2rem; }
+.margin-bottom--4: { margin-bottom: 3rem; }
+.margin-bottom--5: { margin-bottom: 4rem; }
+.margin-bottom--6: { margin-bottom: 5rem; }
+.margin-bottom--7: { margin-bottom: 6rem; }
+.margin-bottom--8: { margin-bottom: 7rem; }
+.margin-bottom--9: { margin-bottom: 8rem; }
+.margin-bottom--10: { margin-bottom: 9rem; }
+.margin-bottom--11: { margin-bottom: 10rem; }
+
+/*
+
+Syntax
+/* <length> values */
+/*margin-bottom: 10px;        /* An absolute length */
+/*margin-bottom: 1em;         /* A length relative to the text size */
+/*margin-bottom: 5%;          /* A margin relative to the nearest block container's width */
+
+/* Keyword values */
+/*margin-bottom: auto;
+
+/* Global values */
+/*margin-bottom: inherit;
+margin-bottom: initial;
+margin-bottom: unset;
+Values
+
+<length>
+Specifies a fixed width. See <length> for possible values.
+<percentage>
+A <percentage> always relative to the width of the containing block.
+auto
+See margin.
+Formal syntax
+
+<length> | <percentage> | auto
+
+*/

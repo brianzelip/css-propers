@@ -1,0 +1,66 @@
+.max-height--none: { max-height: none; }
+.max-height--max-content: { max-height: max-content; }
+.max-height--min-content: { max-height: min-content; }
+.max-height--fit-content: { max-height: fit-content; }
+.max-height--fill-available: { max-height: fill-available; }
+.max-height--inherit: { max-height: inherit; }
+.max-height--initial: { max-height: initial; }
+.max-height--unset: { max-height: unset; }
+
+.max-height--100vh { max-height: 100vh; }
+.max-height--100per { max-height: 100%; }
+
+/*
+
+Summary
+The max-height property is used to set the maximum height of an element. It prevents the used value of the height property from becoming larger than the value specified for max-height.
+
+max-height overrides height, but min-height overrides max-height.
+
+Initial value	none
+Applies to	all elements but non-replaced inline elements, table columns, and column groups
+Inherited	no
+Percentages	The percentage is calculated with respect to the height of the generated box's containing block. If the height of the containing block is not specified explicitly (i.e., it depends on content height), and this element is not absolutely positioned, the percentage value is treated as none.
+Media	visual
+Computed value	the percentage as specified or the absolute length or none
+Animatable	yes, as a length, percentage or calc(); when both values are lengths, they are interpolated as lengths; when both values are percentages, they are interpolated as percentages; otherwise, both values are converted into a calc() function that is the sum of a length and a percentage (each possibly zero), and these calc() functions have each half interpolated as real numbers.
+Canonical order	the unique non-ambiguous order defined by the formal grammar
+Syntax
+/* <length> value */
+/*max-height: 3.5em;
+
+/* <percentage> value */
+/*max-height: 75%;
+
+/* Keyword values */
+/*max-height: none;
+max-height: max-content;
+max-height: min-content;
+max-height: fit-content;
+max-height: fill-available;
+
+/* Global values */
+/*max-height: inherit;
+max-height: initial;
+max-height: unset;
+Values
+
+<length>
+A fixed maximum height. See <length> for possible units.
+<percentage>
+The <percentage> is calculated with respect to the height of the containing block. If the height of the containing block is not specified explicitly, the percentage value is treated as none.
+none
+No limit on the height of the box.
+max-content
+The intrinsic preferred height.
+min-content
+The intrinsic minimum height.
+fill-available
+The containing block height minus vertical margin, border and padding. Some browsers implement an ancient name for this keyword, available.
+fit-content
+The same as max-content.
+Formal syntax
+
+<length> | <percentage> | none | max-content | min-content | fit-content | fill-available
+
+*/

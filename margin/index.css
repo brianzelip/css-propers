@@ -1,0 +1,81 @@
+.margin--auto: { margin: auto; }
+.margin--0: { margin: 0; }
+.margin--1: { margin: .5rem; }
+.margin--2: { margin: 1rem; }
+.margin--3: { margin: 2rem; }
+.margin--4: { margin: 3rem; }
+.margin--5: { margin: 4rem; }
+.margin--6: { margin: 5rem; }
+.margin--7: { margin: 6rem; }
+.margin--8: { margin: 7rem; }
+.margin--9: { margin: 8rem; }
+.margin--10: { margin: 9rem; }
+.margin--11: { margin: 10rem; }
+
+.margin-x--auto: { margin: 0 auto; }
+.margin-x--0: { margin: 0 0; }
+.margin-x--1: { margin: 0 .5rem; }
+.margin-x--2: { margin: 0 1rem; }
+.margin-x--3: { margin: 0 2rem; }
+.margin-x--4: { margin: 0 3rem; }
+.margin-x--5: { margin: 0 4rem; }
+.margin-x--6: { margin: 0 5rem; }
+.margin-x--7: { margin: 0 6rem; }
+.margin-x--8: { margin: 0 7rem; }
+.margin-x--9: { margin: 0 8rem; }
+.margin-x--10: { margin: 0 9rem; }
+.margin-x--11: { margin: 0 10rem; }
+
+.margin-y--auto: { margin: auto 0; }
+.margin-y--0: { margin: 0 0; }
+.margin-y--1: { margin: .5rem 0; }
+.margin-y--2: { margin: 1rem 0; }
+.margin-y--3: { margin: 2rem 0; }
+.margin-y--4: { margin: 3rem 0; }
+.margin-y--5: { margin: 4rem 0; }
+.margin-y--6: { margin: 5rem 0; }
+.margin-y--7: { margin: 6rem 0; }
+.margin-y--8: { margin: 7rem 0; }
+.margin-y--9: { margin: 8rem 0; }
+.margin-y--10: { margin: 9rem 0; }
+.margin-y--11: { margin: 10rem 0; }
+
+/*
+
+Syntax
+/* Apply to all four sides */
+/*margin: 1em;
+
+/* vertical | horizontal */
+/*margin: 5% auto;
+
+/* top | horizontal | bottom */
+/*margin: 1em auto 2em;
+
+/* top | right | bottom | left */
+/*margin: 2px 1em 0 auto;
+
+/* Global values */
+/*margin: inherit;
+margin: initial;
+margin: unset;
+Values
+
+Accepts one, two, three or four values of the following:
+
+<length>
+Specifies a fixed width. Negative Values are allowed. See for <length> possible units.
+<percentage>
+A <percentage> relative to the width of the containing block. Negative values are allowed.
+auto
+auto is replaced by some suitable value, e.g. it can be used for centering of blocks.
+div { width:50%;  margin:0 auto; } centers the div container horizontally.
+One single value applies to all four sides.
+Two values apply first to top and bottom, the second one to left and right.
+Three values apply first to top, second to left and right and third to bottom.
+Four values apply to top, right, bottom and left in that order (clockwise).
+Formal syntax
+
+[ <length> | <percentage> | auto ]{1,4}
+
+*/
