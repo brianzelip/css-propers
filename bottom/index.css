@@ -1,0 +1,14 @@
+/*Syntax
+/* <length> values */
+/*bottom: 3px;
+bottom: 2.4em;
+
+/* <percentages> of the height of the containing block */
+/*bottom: 10%;
+
+/* keyword values */
+.bottom--auto: { bottom: auto; }
+.bottom--inherit: { bottom: inherit; }
+
+/* absolute length values */
+.bottom0 { bottom: 0; }

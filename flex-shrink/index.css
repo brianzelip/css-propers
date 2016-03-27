@@ -1,0 +1,38 @@
+/*
+
+Summary
+Edit
+
+The flex-shrink CSS property specifies the flex shrink factor of a flex item.
+
+Initial value 1
+Applies to  flex items, including in-flow pseudo-elements
+Inherited no
+Media visual
+Computed value  as specified
+Animatable  yes, as a number
+Canonical order the unique non-ambiguous order defined by the formal grammar
+
+See Using CSS flexible boxes for more properties and information.
+Syntax
+Edit
+
+flex-shrink: 2;
+flex-shrink: 0.6;
+
+/* Global values */
+/*flex-shrink: inherit;
+flex-shrink: initial;
+flex-shrink: unset;
+
+Values
+
+<number>
+    See <number>. Negative values are invalid.
+
+Formal syntax
+How to read CSS syntax.
+
+<number>
+
+*/

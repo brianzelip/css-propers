@@ -1,0 +1,10 @@
+/* Any <length> value */
+/*border-left-width: 10em;
+border-left-width: 3vmax;
+border-left-width: 6px;
+
+/* A keyword */
+.border-left-width--thin: { border-left-width: thin; }
+.border-left-width--medium: { border-left-width: medium; }
+.border-left-width--thick: { border-left-width: thick; }
+.border-left-width--inherit: { border-left-width: inherit; }

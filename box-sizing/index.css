@@ -1,0 +1,8 @@
+/* Keyword values */
+.box-sizing--content-box: { box-sizing: content-box; }
+.box-sizing--border-box: { box-sizing: border-box; }
+
+/* Global values */
+.box-sizing--inherit: { box-sizing: inherit; }
+.box-sizing--initial: { box-sizing: initial; }
+.box-sizing--unset: { box-sizing: unset; }

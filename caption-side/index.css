@@ -1,0 +1,6 @@
+.caption-side--top: { caption-side: top; }
+.caption-side--bottom: { caption-side: bottom; }
+.caption-side--block-start: { caption-side: block-start; }
+.caption-side--block-end: { caption-side: block-end; }
+.caption-side--inline-start: { caption-side: inline-start; }
+.caption-side--inline-end: { caption-side: inline-end; }

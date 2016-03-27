@@ -1,0 +1,29 @@
+/* Keywords syntax */
+.background-size--cover: { background-size: cover; }
+.background-size--contain: { background-size: contain; }
+
+/* One-value syntax */
+/* the width of the image (height set to 'auto') */
+.background-size--auto: { background-size: auto; }
+
+/*
+/* Two-value syntax */
+/* first value: width of the image, second value: height */
+/*
+background-size: 50% auto;
+background-size: 3em 25%;
+background-size: auto 6px;
+background-size: auto auto;
+*/
+
+/* Multiple backgrounds values by background-image */
+/* Do not confuse this with background-size: auto auto */
+/*
+background-size: auto, auto;
+background-size: 50%, 25%, 25%;
+background-size: 6px, auto, contain;
+*/
+/* Global values */
+.background-size--inherit: { background-size: inherit; }
+.background-size--initial: { background-size: initial; }
+.background-size--unset: { background-size: unset; }

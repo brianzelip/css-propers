@@ -1,0 +1,10 @@
+/*
+Syntax
+/* the corner is a circle */
+/* border-bottom-left-radius: 3px;
+
+/* the corner is an ellipsis */
+/* border-bottom-left-radius: horizontal vertical */
+/* border-bottom-left-radius: 0.5em 1em
+*/
+.border-bottom-left-radius--inherit: { border-bottom-left-radius: inherit; }

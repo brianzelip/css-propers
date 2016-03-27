@@ -1,0 +1,33 @@
+/*
+
+Summary
+Edit
+
+The flex-grow CSS property specifies the flex grow factor of a flex item. It specifies what amount of space inside the flex container the item should take up.
+
+Initial value 0
+Applies to  flex items, including in-flow pseudo-elements
+Inherited no
+Media visual
+Computed value  as specified
+Animatable  yes, as a number
+Canonical order the unique non-ambiguous order defined by the formal grammar
+
+See Using CSS flexible boxes for more properties and information.
+Syntax
+Edit
+
+flex-grow: 3;
+flex-grow: 0.6;
+
+/* Global values */
+/*flex-grow: inherit;
+flex-grow: initial;
+flex-grow: unset;
+
+Values
+
+<number>
+    See <number>. Negative values are invalid. 
+
+*/

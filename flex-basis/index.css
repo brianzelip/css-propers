@@ -1,0 +1,57 @@
+/*
+
+Syntax
+Edit
+
+/* Specify <'width'> */
+/*flex-basis: 10em;      
+flex-basis: 3px;
+flex-basis: auto;
+
+/* Intrinsic sizing keywords */
+/*flex-basis: fill;
+flex-basis: max-content;
+flex-basis: min-content;
+flex-basis: fit-content;
+
+/* Automatically size based on the flex item’s content */
+/*flex-basis: content;
+
+/* Global values */
+/*flex-basis: inherit;
+flex-basis: initial;
+flex-basis: unset;
+
+Values
+
+<'width'>
+    Defined as a number followed by a absolute unit such as px, mm or pt, or a percentage of the parent flex container main size property. Negative values are invalid.
+content
+    Indicates automatic sizing, based on the flex item’s content.
+    Note:Note that this value was not present in the initial release of Flexible Box Layout, and thus some older implementations will not support it. The equivalent effect can be had by using auto together with a main size (width or height) of auto.
+
+    Note: Brief history
+
+        Originally, "flex-basis:auto" meant "look at my width or height property".
+        Then, flex-basis:auto was changed to mean automatic-sizing, and "main-size" was introduced as the "look at my width or height property" keyword. It was implemented in bug 1032922.
+        Then, that change was reverted in bug 1093316, so "auto" once again means "look at my width or height property"; and a new 'content' keyword is being introduced to trigger automatic sizing. (bug 1105111 covers adding that keyword).
+
+Formal syntax
+How to read CSS syntax.
+
+content | <'width'>
+
+*/
+
+.flex-basis--auto: { flex-basis: auto; }
+/* Intrinsic sizing keywords */
+.flex-basis--fill: { flex-basis: fill; }
+.flex-basis--max-content: { flex-basis: max-content; }
+.flex-basis--min-content: { flex-basis: min-content; }
+.flex-basis--fit-content: { flex-basis: fit-content; }
+/* Automatically size based on the flex item’s content */
+.flex-basis--content: { flex-basis: content; }
+/* Global values */
+.flex-basis--inherit: { flex-basis: inherit; }
+.flex-basis--initial: { flex-basis: initial; }
+.flex-basis--unset: { flex-basis: unset; }

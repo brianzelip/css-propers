@@ -1,0 +1,18 @@
+/*
+background-position: 25% 75%;
+background-position: 0px 0px, center;
+
+<position>
+Is a <position>, that is one to four values representing a 2D position 
+regarding the edges of the element's box. Relative or absolute offsets 
+can be given. Note that the position can be set outside of the element's 
+box.
+
+*/
+
+.background-position--top: { background-position: top; }
+.background-position--bottom: { background-position: bottom; }
+.background-position--left: { background-position: left; }
+.background-position--right: { background-position: right; }
+.background-position--center: { background-position: center; }
+

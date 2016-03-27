@@ -1,0 +1,6 @@
+.clear--none: { clear: none; }
+.clear--left: { clear: left; }
+.clear--right: { clear: right; }
+.clear--both: { clear: both; }
+.clear--inline-start: { clear: inline-start; }
+.clear--inline-end: { clear: inline-end; }

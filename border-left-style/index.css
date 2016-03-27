@@ -1,0 +1,11 @@
+.border-left-style--none: { border-left-style: none; }
+.border-left-style--hidden: { border-left-style: hidden; }
+.border-left-style--dotted: { border-left-style: dotted; }
+.border-left-style--dashed: { border-left-style: dashed; }
+.border-left-style--solid: { border-left-style: solid; }
+.border-left-style--double: { border-left-style: double; }
+.border-left-style--groove: { border-left-style: groove; }
+.border-left-style--ridge: { border-left-style: ridge; }
+.border-left-style--inset: { border-left-style: inset; }
+.border-left-style--outset: { border-left-style: outset; }
+.border-left-style--inherit: { border-left-style: inherit; }

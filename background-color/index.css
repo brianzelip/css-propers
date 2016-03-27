@@ -1,0 +1,12 @@
+/*
+<color>
+where 
+<color> = <rgb()> | <rgba()> | <hsl()> | <hsla()> | <hex-color> | <named-color> |
+ currentcolor | <deprecated-system-color>
+*/
+ 
+.background-color--currentColor: { background-color: currentColor; }
+.background-color--transparent: { background-color: transparent; }
+.background-color--inherit: { background-color: inherit; }
+.background-color--initial: { background-color: initial; }
+.background-color--unset: { background-color: unset; }

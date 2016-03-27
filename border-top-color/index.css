@@ -1,0 +1,45 @@
+/*
+
+Summary
+The border-top-color CSS property sets the color of the top border of an element. Note that in many cases the shorthand CSS properties border-color or border-top are more convenient and preferable.
+
+Initial value currentColor
+Applies to  all elements. It also applies to ::first-letter.
+Inherited no
+Media visual
+Computed value  If the value is translucent, the computed value will be the rgba() corresponding one. If it isn't, it will be the rgb() corresponding one. The transparent keyword maps to rgba(0,0,0,0).
+Animatable  yes, as a color
+Canonical order the unique non-ambiguous order defined by the formal grammar
+Syntax
+border-top-color: red;
+border-top-color: rgb(255, 128, 0);
+border-top-color: hsla(100%, 50%, 25%, 0.75);
+border-top-color: #ffbb00;
+border-top-color: currentColor;
+border-top-color: transparent;
+
+border-top-color: inherit;
+Values
+
+<color>
+Is a <color> CSS value describing the color of the top border.
+inherit
+Is a keyword denoting the color of the top border of the parent's element (which may be different from the border-top-color default value)
+Formal syntax
+
+<color>
+where 
+<color> = <rgb()> | <rgba()> | <hsl()> | <hsla()> | <hex-color> | <named-color> | currentcolor | <deprecated-system-color>
+where 
+<rgb()> = rgb( <rgb-component>#{3} )
+<rgba()> = rgba( <rgb-component>#{3} , <alpha-value> )
+<hsl()> = hsl( <hue>, <percentage>, <percentage> )
+<hsla()> = hsla( <hue>, <percentage>, <percentage>, <alpha-value> )
+<named-color> = <ident>
+<deprecated-system-color> = ActiveBorder | ActiveCaption | AppWorkspace | Background | ButtonFace | ButtonHighlight | ButtonShadow | ButtonText | CaptionText | GrayText | Highlight | HighlightText | InactiveBorder | InactiveCaption | InactiveCaptionText | InfoBackground | InfoText | Menu | MenuText | Scrollbar | ThreeDDarkShadow | ThreeDFace | ThreeDHighlight | ThreeDLightShadow | ThreeDShadow | Window | WindowFrame | WindowText
+where 
+<rgb-component> = <integer> | <percentage>
+<alpha-value> = <number>
+<hue> = <number>
+
+*/
