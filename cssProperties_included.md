@@ -55,6 +55,7 @@ flex-shrink
 flex-wrap
 float
 
+font-family (property)
 font-style
 font-weight
 

@@ -1,0 +1,6 @@
+.hyphens--none: { hyphens: none; }
+.hyphens--manual: { hyphens: manual; }
+.hyphens--auto: { hyphens: auto; }
+.hyphens--inherit: { hyphens: inherit; }
+.hyphens--initial: { hyphens: initial; }
+.hyphens--unset: { hyphens: unset; }

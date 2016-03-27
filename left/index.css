@@ -1,0 +1,38 @@
+.left: { left: auto; }
+.left--0 { left: 0; }
+.left--50 { left: 50%; }
+
+/*
+
+Syntax
+/* <length> values */
+/*left: 3px;
+left: 2.4em;
+
+/* <percentage>s of the width of the containing block */
+/*left: 10%;
+
+/* Keyword values */
+/*left: auto;
+
+/* Global values */
+/*left: inherit;
+left: initial;
+left: unset;
+Values
+
+<length>
+Is a negative, null, or positive <length> that represents:
+for absolutely positioned elements, the distance to the left edge of the containing block
+for relatively positioned elements, the offset that the element is moved left from its position in the normal flow if it wasn't positioned.
+<percentage>
+Is a <percentage> of the containing block's width, used as described in the summary.
+auto
+Is a keyword that represents:
+for absolutely positioned elements, the position of the element based on the right property and treat width: auto as a width based on the content.
+for relatively positioned elements, the left offset of the element from its original position based on the right property, or if right is also auto, do not offset it at all.
+Formal syntax
+
+<length> | <percentage> | auto
+
+*/

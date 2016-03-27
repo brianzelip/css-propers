@@ -1,0 +1,16 @@
+.font-family--serif: { font-family: serif; }
+.font-family--sans-serif: { font-family: sans-serif; }
+.font-family--cursive: { font-family: cursive; }
+.font-family--fantasy: { font-family: fantasy; }
+.font-family--monospace: { font-family: monospace; }
+.font-family--inherit: { font-family: inherit; }
+.font-family--unset: { font-family: unset; }
+
+/*
+
+Values
+
+<family-name>
+The name of a font family. For example, "Times" and "Helvetica" are font families. Font family names containing whitespace should be quoted.
+
+*/

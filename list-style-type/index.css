@@ -1,0 +1,290 @@
+.list-style-type--none: { list-style-type: none; }
+.list-style-type--inherit: { list-style-type: inherit; }
+.list-style-type--initial: { list-style-type: initial; }
+.list-style-type--unset: { list-style-type: unset; }
+.list-style-type--disc: { list-style-type: disc; }
+.list-style-type--circle: { list-style-type: circle; }
+.list-style-type--square: { list-style-type: square; }
+.list-style-type--decimal: { list-style-type: decimal; }
+.list-style-type--cjk-decimal: { list-style-type: cjk-decimal; }
+.list-style-type--decimal-leading-zero: { list-style-type: decimal-leading-zero; }
+.list-style-type--lower-roman: { list-style-type: lower-roman; }
+.list-style-type--upper-roman: { list-style-type: upper-roman; }
+.list-style-type--lower-greek: { list-style-type: lower-greek; }
+.list-style-type--lower-alpha: { list-style-type: lower-alpha; }
+.list-style-type--lower-latin: { list-style-type: lower-latin; }
+.list-style-type--upper-alpha: { list-style-type: upper-alpha; }
+.list-style-type--upper-latin: { list-style-type: upper-latin; }
+.list-style-type--arabic-indic: { list-style-type: arabic-indic; }
+.list-style-type--armenian: { list-style-type: armenian; }
+.list-style-type--bengali: { list-style-type: bengali; }
+.list-style-type--cambodian: { list-style-type: cambodian; }
+.list-style-type--cjk-earthly-branch: { list-style-type: cjk-earthly-branch; }
+.list-style-type--cjk-heavenly-stem: { list-style-type: cjk-heavenly-stem; }
+.list-style-type--cjk-ideographic: { list-style-type: cjk-ideographic; }
+.list-style-type--devanagari: { list-style-type: devanagari; }
+.list-style-type--thiopic-numeric: { list-style-type: thiopic-numeric; }
+.list-style-type--georgian: { list-style-type: georgian; }
+.list-style-type--gujarati: { list-style-type: gujarati; }
+.list-style-type--gurmukhi: { list-style-type: gurmukhi; }
+.list-style-type--hebrew: { list-style-type: hebrew; }
+.list-style-type--hiragana: { list-style-type: hiragana; }
+.list-style-type--hiragana-iroha: { list-style-type: hiragana-iroha; }
+.list-style-type--japanese-formal: { list-style-type: japanese-formal; }
+.list-style-type--japanese-informal: { list-style-type: japanese-informal; }
+.list-style-type--kannada: { list-style-type: kannada; }
+.list-style-type--katakana: { list-style-type: katakana; }
+.list-style-type--katakana-iroha: { list-style-type: katakana-iroha; }
+.list-style-type--khmer: { list-style-type: khmer; }
+.list-style-type--korean-hangul-formal: { list-style-type: korean-hangul-formal; }
+.list-style-type--korean-hanja-formal: { list-style-type: korean-hanja-formal; }
+.list-style-type--korean-hanja-informal: { list-style-type: korean-hanja-informal; }
+.list-style-type--lao: { list-style-type: lao; }
+.list-style-type--lower-armenian: { list-style-type: lower-armenian; }
+.list-style-type--malayalam: { list-style-type: malayalam; }
+.list-style-type--mongolian: { list-style-type: mongolian; }
+.list-style-type--myanmar: { list-style-type: myanmar; }
+.list-style-type--oriya: { list-style-type: oriya; }
+.list-style-type--rsian: { list-style-type: rsian; }
+.list-style-type--simp-chinese-formal: { list-style-type: simp-chinese-formal; }
+.list-style-type--simp-chinese-informal: { list-style-type: simp-chinese-informal; }
+.list-style-type--tamil: { list-style-type: tamil; }
+.list-style-type--telugu: { list-style-type: telugu; }
+.list-style-type--thai: { list-style-type: thai; }
+.list-style-type--tibetan: { list-style-type: tibetan; }
+.list-style-type--trad-chinese-formal: { list-style-type: trad-chinese-formal; }
+.list-style-type--trad-chinese-informal: { list-style-type: trad-chinese-informal; }
+.list-style-type--upper-armenian: { list-style-type: upper-armenian; }
+.list-style-type--disclosure-open: { list-style-type: disclosure-open; }
+.list-style-type--disclosure-closed: { list-style-type: disclosure-closed; }
+.list-style-type--thiopic-halehame-ti-er: { list-style-type: thiopic-halehame-ti-er; }
+.list-style-type--thiopic-halehame-ti-et: { list-style-type: thiopic-halehame-ti-et; }
+.list-style-type--hangul: { list-style-type: hangul; }
+.list-style-type--hangul-consonant: { list-style-type: hangul-consonant; }
+.list-style-type--urdu: { list-style-type: urdu; }
+
+/*
+
+Syntax
+/* Partial list of types */
+/*list-style-type: disc;
+list-style-type: circle;
+list-style-type: square;
+list-style-type: decimal;
+list-style-type: georgian;
+list-style-type: cjk-ideographic;
+list-style-type: kannada;
+
+/* A <string> */
+/*list-style-type: '-';
+
+/* Identifier matching an @counter-style rule */
+/*list-style-type: custom-counter-style;
+
+list-style-type: none;
+
+/* Global values */
+/*list-style-type: inherit;
+list-style-type: initial;
+list-style-type: unset;
+Values
+
+symbols()
+Defines an anonymous style of the list.
+none
+No item marker is shown.
+<string>
+The specified string will be used as the item's marker.
+<custom-ident>
+A identifier matching the value of a @counter-style or one of the predefined styles:
+disc
+A filled circle (default value)
+circle
+A hollow circle
+square
+A filled square
+decimal
+Decimal numbers
+Beginning with 1
+cjk-decimal
+Han decimal numbers
+E.g. 一, 二, 三, ..., 九八, 九九, 一〇〇
+decimal-leading-zero
+Decimal numbers
+Padded by initial zeros
+E.g. 01, 02, 03, … 98, 99
+lower-roman
+Lowercase roman numerals
+E.g. i, ii, iii, iv, v…
+upper-roman
+Uppercase roman numerals
+E.g. I, II, III, IV, V…
+lower-greek
+Lowercase classical Greek
+alpha, beta, gamma…
+E.g. α, β, γ…
+lower-alpha
+lower-latin
+Lowercase ASCII letters
+E.g. a, b, c, … z
+lower-latin is unsupported in IE7 and earlier
+See Browser compatibility section.
+upper-alpha
+upper-latin
+Uppercase ASCII letters
+E.g. A, B, C, … Z
+upper-latin is unsupported in IE7 and earlier
+arabic-indic
+-moz-arabic-indic
+Example
+armenian
+Traditional Armenian numbering
+(ayb/ayp, ben/pen, gim/keem…
+bengali
+-moz-bengali
+Example
+cambodian *
+Example
+Is a synonym for khmer
+cjk-earthly-branch
+-moz-cjk-earthly-branch
+Example
+cjk-heavenly-stem
+-moz-cjk-heavenly-stem
+Example
+cjk-ideographic
+Identical to trad-chinese-informal
+E.g. 一萬一千一百一十一
+devanagari
+-moz-devanagari
+Example
+ethiopic-numeric
+Example
+georgian
+Traditional Georgian numbering
+E.g. an, ban, gan, … he, tan, in…
+gujarati
+-moz-gujarati
+Example
+gurmukhi
+-moz-gurmukhi
+Example
+hebrew
+Traditional Hebrew numbering
+hiragana
+a, i, u, e, o, ka, ki, …
+(Japanese)
+hiragana-iroha
+i, ro, ha, ni, ho, he, to, …
+Iroha is the old japanese ordering of syllabs.
+japanese-formal
+Japanese formal numbering to be used in legal or financial document.
+E.g., 壱萬壱阡壱百壱拾壱
+The kanjis are designed so that they can't be modified to look like another correct one
+japanese-informal
+Japanese informal numbering
+kannada
+-moz-kannada
+Example
+katakana
+A, I, U, E, O, KA, KI, …
+(Japanese)
+katakana-iroha
+I, RO, HA, NI, HO, HE, TO, …
+Iroha is the old japanese ordering of syllabs.
+khmer
+-moz-khmer
+Example
+korean-hangul-formal
+Korean hangul numbering.
+E.g., 일만 일천일백일십일
+korean-hanja-formal
+Formal Korean Han numbering.
+E.g. 壹萬 壹仟壹百壹拾壹
+korean-hanja-informal
+Korean hanja numbering.
+E.g., 萬 一千百十一
+lao
+-moz-lao
+Example
+lower-armenian *
+Example
+malayalam
+-moz-malayalam
+Example
+mongolian
+Example
+myanmar
+-moz-myanmar
+Example
+oriya
+-moz-oriya
+Example
+persian
+-moz-persian
+Example
+simp-chinese-formal
+Simplified Chinese formal numbering.
+E.g. 壹万壹仟壹佰壹拾壹
+simp-chinese-informal
+Simplified Chinese informal numbering.
+E.g. 一万一千一百一十一
+tamil
+-moz-tamil
+Example
+telugu
+-moz-telugu
+Example
+thai
+-moz-thai
+Example
+tibetan *
+Example
+trad-chinese-formal
+Traditional Chinese formal numbering.
+E.g. 壹萬壹仟壹佰壹拾壹
+trad-chinese-informal
+Traditional Chinese informal numbering.
+E.g. 一萬一千一百一十一
+upper-armenian *
+Example
+disclosure-open
+Symbol indicating that a disclosure widget such as <details> is opened.
+disclosure-closed
+Symbol indicating that a disclosure widget, like <details> is closed.
+Non-standard extensions
+
+A few more predefined types are provided by Mozilla (Firefox), Blink (Chrome and Opera) and WebKit (Safari) to support list types in other languages. See the compatibility table to check which browsers supports which extension.
+
+-moz-ethiopic-halehame
+Example
+-moz-ethiopic-halehame-am
+Example
+ethiopic-halehame-ti-er
+-moz-ethiopic-halehame-ti-er
+Example
+ethiopic-halehame-ti-et
+-moz-ethiopic-halehame-ti-et
+Example
+hangul
+-moz-hangul
+Example
+Example
+Example
+hangul-consonant
+-moz-hangul-consonant
+Example
+Example
+Example
+urdu
+-moz-urdu
+Example
+Formal syntax
+
+<counter-style> | <string> | none
+where
+<counter-style> = <counter-style-name> | symbols()
+where
+<counter-style-name> = <custom-ident>
+
+*/

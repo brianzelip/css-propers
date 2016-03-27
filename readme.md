@@ -25,7 +25,7 @@ A (reusable/atomic) css library's personality also participates in:
     + pick and choose (customize) the property-value classes to use/download (requires a web app)
     + be managed according to best practices:
         * the monolithic modules repo for centralization and community discussion (see the Basscss v7.1 issue talk (i think that is the correct version))
-        * 
+        *
 
 
 
@@ -54,7 +54,7 @@ See this link for the excellent CSS Vocabulary web app that demonstrates
 examples of each component of the css vocabulary.
     http://apps.workflower.fi/vocabs/css/en
 
- 
+
 
 Single class CSS
 css-propers
@@ -62,3 +62,7 @@ CSS Propers
 Single-declaration classes for each `<property>: <keyword value>` pair
 Single-declaration classes for each `<property>: <keyword value>` pair
 Single declaration classes for each
+
+Single-declaration classes for all possible <keyword> values and most <non-keyword> values.
+
+Take CSS with you from project to project instead of starting from scratch every project.

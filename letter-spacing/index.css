@@ -1,0 +1,32 @@
+.letter-spacing--normal: { letter-spacing: normal; }
+.letter-spacing--inherit: { letter-spacing: inherit; }
+.letter-spacing--initial: { letter-spacing: initial; }
+.letter-spacing--unset: { letter-spacing: unset; }
+
+/*
+
+Syntax
+/* <length> values */
+/*letter-spacing: 0.3em;
+letter-spacing: 3px;
+letter-spacing: .3px;
+
+/* Keyword values */
+/*letter-spacing: normal;
+
+/* Global values */
+/*letter-spacing: inherit;
+letter-spacing: initial;
+letter-spacing: unset;
+Values
+
+normal
+The spacing is the normal spacing for the current font. Unlike a value of 0, this value allows the user agent to alter the space between characters in order to justify text.
+<length>
+Indicates inter-character space in addition to the default space between characters. Values may be negative, but there may be implementation-specific limits. User agents may not further increase or decrease the inter-character space in order to justify text.
+See <length> values for possible units.
+Formal syntax
+
+normal | <length>
+
+*/

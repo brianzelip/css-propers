@@ -142,7 +142,7 @@ flex
 :focus
 font
 @font-face
-font-family (property)
+
 font-feature-settings
 @font-feature-values
 font-kerning
@@ -477,4 +477,3 @@ Z
 
 Others
 --*
-

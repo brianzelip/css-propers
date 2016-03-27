@@ -41,6 +41,7 @@ flex-grow
 flex-shrink
 flex-wrap
 float
+font-family
 font-style
 font-weight
 height

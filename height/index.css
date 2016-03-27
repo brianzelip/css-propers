@@ -1,0 +1,53 @@
+.height--border-box: { height: border-box; }
+.height--content-box: { height: content-box; }
+.height--available: { height: available; }
+.height--min-content: { height: min-content; }
+.height--max-content: { height: max-content; }
+.height--fit-content: { height: fit-content; }
+.height--auto: { height: auto; }
+
+/*
+
+Syntax
+/* Keyword value */
+/*height: auto;
+
+/* <length> values */
+/*height: 120px;
+height: 10em;
+
+/* <percentage> value */
+/*height: 75%;
+
+/* Global values */
+/*height: inherit;
+height: initial;
+height: unset;
+Values
+
+<length>
+See <length> for possible units.
+<percentage>
+Specified as a <percentage> of containing block's height.
+border-box
+If present, the preceding <length> or <percentage> is applied to the element's border box.
+content-box
+If present, the preceding <length> or <percentage> is applied to the element's content box.
+auto
+The browser will calculate and select a height for the specified element.
+max-content
+The intrinsic preferred height.
+min-content
+The intrinsic minimum height.
+available
+The containing block height minus vertical margin, border and padding.
+fit-content
+The larger of:
+the intrinsic minimum height
+the smaller of the intrinsic preferred height and the available height
+Formal syntax
+
+[<length> | <percentage>] && [border-box | content-box]? | available | min-content | max-content | fit-content | auto
+
+
+*/
