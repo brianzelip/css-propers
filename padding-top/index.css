@@ -1,0 +1,46 @@
+.padding-top--auto: { padding-top: auto; }
+.padding-top--inherit: { padding-top: inherit; }
+.padding-top--initial: { padding-top: initial; }
+.padding-top--unset: { padding-top: unset; }
+.padding-top--0: { padding-top: 0; }
+.padding-top--1: { padding-top: .5rem; }
+.padding-top--2: { padding-top: 1rem; }
+.padding-top--3: { padding-top: 2rem; }
+.padding-top--4: { padding-top: 3rem; }
+.padding-top--5: { padding-top: 4rem; }
+.padding-top--6: { padding-top: 5rem; }
+.padding-top--7: { padding-top: 6rem; }
+.padding-top--8: { padding-top: 7rem; }
+.padding-top--9: { padding-top: 8rem; }
+.padding-top--10: { padding-top: 9rem; }
+.padding-top--11: { padding-top: 10rem; }
+
+/*
+
+Syntax
+/* <length> values */
+/*padding-top: 10px;  /* An absolute length */
+/*padding-top: 1em;   /* A length relative to the text size */
+/*padding-top: 5%;    /* A padding relative to the nearest block container's width */
+
+/* Keyword values */
+/*padding-top: auto;
+
+/* Global values */
+/*padding-top: inherit;
+padding-top: initial;
+padding-top: unset;
+Values
+
+<length>
+Is a <length> specifying a fixed width: it can be absolute width, e.g. in px, or a width relative to the text size, e.g. in em, or relative to the viewport size, e.g. in vh.
+<percentage>
+Is a <percentage> relative to the width of the nearest containing block.
+auto
+Is a keyword indicating that the top padding receives a share of the remaining space, defined mainly by the current layout mode.. If there several auto values for padding-top or padding-right, the calculated space is evenly distributed between all the auto values.
+
+Formal syntax
+
+<length> | <percentage> | auto
+
+*/

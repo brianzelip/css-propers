@@ -1,6 +1,11 @@
-.left: { left: auto; }
+.left--auto: { left: auto; }
 .left--0 { left: 0; }
-.left--50 { left: 50%; }
+.left--50per { left: 50%; }
+
+.left--inherit: { left: inherit; }
+.left--initial: { left: initial; }
+.left--unset: { left: unset; }
+
 
 /*
 

@@ -1,0 +1,79 @@
+.vertical-align--baseline: { vertical-align: baseline; }
+.vertical-align--sub: { vertical-align: sub; }
+.vertical-align--super: { vertical-align: super; }
+.vertical-align--text-top: { vertical-align: text-top; }
+.vertical-align--text-bottom: { vertical-align: text-bottom; }
+.vertical-align--middle: { vertical-align: middle; }
+.vertical-align--top: { vertical-align: top; }
+.vertical-align--bottom: { vertical-align: bottom; }
+.vertical-align--inherit: { vertical-align: inherit; }
+.vertical-align--initial: { vertical-align: initial; }
+.vertical-align--unset: { vertical-align: unset; }
+
+/*
+
+Syntax
+/* keyword values */
+/*vertical-align: baseline;
+vertical-align: sub;
+vertical-align: super;
+vertical-align: text-top;
+vertical-align: text-bottom;
+vertical-align: middle;
+vertical-align: top;
+vertical-align: bottom;
+
+/* <length> values */
+/*vertical-align: 10em;
+vertical-align: 4px;
+
+/* <percentage> values */
+/*vertical-align: 20%;
+
+/* Global values */
+/*vertical-align: inherit;
+vertical-align: initial;
+vertical-align: unset;
+Values (for inline elements)
+
+Most of the values vertically align the element relative to its parent element:
+
+baseline
+Aligns the baseline of the element with the baseline of its parent. The baseline of some replaced elements, like <textarea>, is not specified by the HTML specification, meaning that their behavior with this keyword may change from one browser to the other.
+sub
+Aligns the baseline of the element with the subscript-baseline of its parent.
+super
+Aligns the baseline of the element with the superscript-baseline of its parent.
+text-top
+Aligns the top of the element with the top of the parent element's font.
+text-bottom
+Aligns the bottom of the element with the bottom of the parent element's font.
+middle
+Aligns the middle of the element with the baseline plus half the x-height of the parent.
+<length>
+Aligns the baseline of the element at the given length above the baseline of its parent.
+<percentage>
+Like <length> values, with the percentage being a percent of the line-height property.
+(Negative values are allowed for <length> and <percentage>.)
+
+The following two values vertically align the element relative to the entire line rather than relative to its parent:
+
+top
+Align the top of the element and its descendants with the top of the entire line.
+bottom
+Align the bottom of the element and its descendants with the bottom of the entire line.
+For elements that do not have a baseline, the bottom margin edge is used instead.
+
+Values (for table cells)
+
+baseline (and sub, super, text-top, text-bottom, <length>, and <percentage>)
+Align the baseline of the cell with the baseline of all other cells in the row that are baseline-aligned.
+top
+Align the top padding edge of the cell with the top of the row.
+middle
+Center the padding box of the cell within the row.
+bottom
+Align the bottom padding edge of the cell with the bottom of the row.
+Negative values are allowed.
+
+*/

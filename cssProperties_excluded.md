@@ -412,7 +412,9 @@ tab-size
 
 text-align-last
 text-combine-upright
-
+text-decoration-color
+text-decoration-line
+text-decoration-style
 text-emphasis
 text-emphasis-color
 text-emphasis-position

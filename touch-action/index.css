@@ -1,0 +1,56 @@
+.touch-action--auto: { touch-action: auto; }
+.touch-action--none: { touch-action: none; }
+.touch-action--pan-x: { touch-action: pan-x; }
+.touch-action--pan-left: { touch-action: pan-left; }
+.touch-action--pan-right: { touch-action: pan-right; }
+.touch-action--pan-y: { touch-action: pan-y; }
+.touch-action--pan-up: { touch-action: pan-up; }
+.touch-action--pan-down: { touch-action: pan-down; }
+.touch-action--manipulation: { touch-action: manipulation; }
+
+.touch-action--inherit: { touch-action: inherit; }
+.touch-action--initial: { touch-action: initial; }
+.touch-action--unset: { touch-action: unset; }
+
+/*
+
+Syntax
+/* Keyword values */
+/*touch-action: auto;
+touch-action: none;
+touch-action: pan-x;
+touch-action: pan-left;
+touch-action: pan-right;
+touch-action: pan-y;
+touch-action: pan-up;
+touch-action: pan-down;
+touch-action: manipulation;
+
+/* Global values */
+/*touch-action: inherit;
+touch-action: initial;
+touch-action: unset;
+Values
+
+auto
+The user agent may determine any permitted touch behaviors, such as panning and zooming manipulations of the viewport, for touches that begin on the element.
+none
+Use this value to disable all of the default behaviors and allow your content to handle all touch input (touches that begin on the element must not trigger default touch behaviors).
+pan-x
+The user agent may consider touches that begin on the element only for the purposes of horizontally scrolling the element's nearest ancestor with horizontally scrollable content.
+pan-y
+The user agent may consider touches that begin on the element only for the purposes of vertically scrolling the element's nearest ancestor with vertically scrollable content.
+manipulation
+The user agent may consider touches that begin on the element only for the purposes of scrolling and continuous zooming. Any additional behaviors supported by auto are out of scope for this specification.
+This is an experimental technology
+Because this technology's specification has not stabilized, check the compatibility table for the proper prefixes to use in various browsers. Also note that the syntax and behavior of an experimental technology is subject to change in future versions of browsers as the spec changes.
+Note: The following property values have not yet been formally standardized. They are specified in the Pointer Events – Level 2 Editor's Draft specification and not in Pointer Events Recommendation. These property values are not widely implemented.
+pan-left, pan-right
+The user agent may consider touches that begin on the element only for the purposes of horizontally scrolling the element's nearest ancestor with horizontally scrollable content.
+pan-up, pan-down
+The user agent may consider touches that begin on the element only for the purposes of vertically scrolling the element's nearest ancestor with vertically scrollable content.
+Formal syntax
+
+auto | none | [[ pan-x | pan-left | pan-right ] || [ pan-y | pan-up | pan-down ]] | manipulation
+
+*/

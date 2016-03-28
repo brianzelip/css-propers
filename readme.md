@@ -12,6 +12,7 @@ Non-keyword values include:
 - percentage
 - position (which consists of lengths or percentages)
 - URL
+- string (see specs for `text-overflow`)
 - function
 
 The personality of the library is most expressed in the default subset of values that the library provides for the non-keyword values.

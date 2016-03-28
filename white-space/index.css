@@ -1,0 +1,8 @@
+.white-space--normal: { white-space: normal; }
+.white-space--nowrap: { white-space: nowrap; }
+.white-space--pre: { white-space: pre; }
+.white-space--pre-wrap: { white-space: pre-wrap; }
+.white-space--pre-line: { white-space: pre-line; }
+.white-space--inherit: { white-space: inherit; }
+.white-space--initial: { white-space: initial; }
+.white-space--unset: { white-space: unset; }

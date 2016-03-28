@@ -1,0 +1,41 @@
+.text-indent--inherit: { text-indent: inherit; }
+.text-indent--initial: { text-indent: initial; }
+.text-indent--unset: { text-indent: unset; }
+
+
+/*
+
+Syntax
+/* <length> values */
+/*text-indent: 3mm;
+text-indent: 40px;
+
+/* <percentage> value
+   relative to the containing block width */
+/*text-indent: 15%;
+
+/* Keyword values */
+/*text-indent: 5em each-line;
+text-indent: 5em hanging;
+text-indent: 5em hanging each-line;
+
+/* Global values */
+/*text-indent: inherit;
+text-indent: initial;
+text-indent: unset;
+Values
+
+<length>
+Indentation is specified as an absolute <length>. Negative values are allowed. See <length> values for possible units.
+<percentage>
+Indentation is a <percentage> of the containing block width.
+each-line
+Indentation affects the first line of the block container as well as each line after a forced line break , but does not affect lines after a soft wrap break .
+hanging
+Inverts which lines are indented. All lines except the first line will be indented.
+Formal syntax
+
+<length> | <percentage> && [ hanging || each-line ]
+
+
+*/

@@ -1,0 +1,7 @@
+.text-rendering--auto: { text-rendering: auto; }
+.text-rendering--optimizeSpeed: { text-rendering: optimizeSpeed; }
+.text-rendering--optimizeLegibility: { text-rendering: optimizeLegibility; }
+.text-rendering--geometricPrecision: { text-rendering: geometricPrecision; }
+.text-rendering--inherit: { text-rendering: inherit; }
+.text-rendering--initial: { text-rendering: initial; }
+.text-rendering--unset: { text-rendering: unset; }

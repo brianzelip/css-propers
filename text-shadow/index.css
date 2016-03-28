@@ -1,0 +1,58 @@
+.text-shadow--none: { text-shadow: none; }
+.text-shadow--inherit: { text-shadow: inherit; }
+.text-shadow--initial: { text-shadow: initial; }
+.text-shadow--unset: { text-shadow: unset; }
+
+/*
+
+Syntax
+/* offset-x | offset-y | blur-radius | color */
+/*text-shadow: 1px 1px 2px black;
+
+/* color | offset-x | offset-y | blur-radius */
+/*text-shadow: #CCC 1px 0 10px;
+
+/* offset-x | offset-y | color */
+/*text-shadow: 5px 5px #558ABB;
+
+/* color | offset-x | offset-y */
+/*text-shadow: white 2px 5px;
+
+/* offset-x | offset-y
+/* Use defaults for color and blur-radius */
+/*text-shadow: 5px 10px;
+
+/* Global values */
+/*text-shadow: inherit;
+text-shadow: initial;
+text-shadow: unset;
+Values
+
+<color>
+Optional. Can be specified either before or after the offset values. If the color is not specified, a UA-chosen color will be used.
+Note: If you want to ensure consistency across browsers, explicitly specify a color.
+<offset-x> <offset-y>
+Required. These <length> values specify the shadow's offset from the text. <offset-x> specifies the horizontal distance; a negative value places the shadow to the left of the text. <offset-y> specifies the vertical distance; a negative value places the shadow above the text. If both values are 0, then the shadow is placed behind the text (and may generate a blur effect when <blur-radius> is set).
+To find out what units you can use, see <length>.
+<blur-radius>
+Optional. This is a <length> value. If not specified, it defaults to 0. The higher this value, the bigger the blur; the shadow becomes wider and lighter.
+Formal syntax
+
+none | <shadow-t>#
+where
+<shadow-t> = [ <length>{2,3} && <color>? ]
+where
+<color> = <rgb()> | <rgba()> | <hsl()> | <hsla()> | <hex-color> | <named-color> | currentcolor | <deprecated-system-color>
+where
+<rgb()> = rgb( <rgb-component>#{3} )
+<rgba()> = rgba( <rgb-component>#{3} , <alpha-value> )
+<hsl()> = hsl( <hue>, <percentage>, <percentage> )
+<hsla()> = hsla( <hue>, <percentage>, <percentage>, <alpha-value> )
+<named-color> = <ident>
+<deprecated-system-color> = ActiveBorder | ActiveCaption | AppWorkspace | Background | ButtonFace | ButtonHighlight | ButtonShadow | ButtonText | CaptionText | GrayText | Highlight | HighlightText | InactiveBorder | InactiveCaption | InactiveCaptionText | InfoBackground | InfoText | Menu | MenuText | Scrollbar | ThreeDDarkShadow | ThreeDFace | ThreeDHighlight | ThreeDLightShadow | ThreeDShadow | Window | WindowFrame | WindowText
+where
+<rgb-component> = <integer> | <percentage>
+<alpha-value> = <number>
+<hue> = <number>
+
+*/

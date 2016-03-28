@@ -1,0 +1,46 @@
+.padding-right--auto: { padding-right: auto; }
+.padding-right--inherit: { padding-right: inherit; }
+.padding-right--initial: { padding-right: initial; }
+.padding-right--unset: { padding-right: unset; }
+.padding-right--0: { padding-right: 0; }
+.padding-right--1: { padding-right: .5rem; }
+.padding-right--2: { padding-right: 1rem; }
+.padding-right--3: { padding-right: 2rem; }
+.padding-right--4: { padding-right: 3rem; }
+.padding-right--5: { padding-right: 4rem; }
+.padding-right--6: { padding-right: 5rem; }
+.padding-right--7: { padding-right: 6rem; }
+.padding-right--8: { padding-right: 7rem; }
+.padding-right--9: { padding-right: 8rem; }
+.padding-right--10: { padding-right: 9rem; }
+.padding-right--11: { padding-right: 10rem; }
+
+/*
+
+Syntax
+/* <length> values */
+/*padding-right: 10px;  /* An absolute length */
+/*padding-right: 1em;   /* A length relative to the text size */
+/*padding-right: 5%;    /* A padding relative to the nearest block container's width */
+
+/* Keyword values */
+/*padding-right: auto;
+
+/* Global values */
+/*padding-right: inherit;
+padding-right: initial;
+padding-right: unset;
+Values
+
+<length>
+Is a <length> specifying a fixed width: it can be absolute width, e.g. in px, or a width relative to the text size, e.g. in em, or relative to the viewport size, e.g. in vh.
+<percentage>
+Is a <percentage> relative to the width of the nearest containing block.
+auto
+Is a keyword indicating that the right padding receives a share of the remaining space, defined mainly by the current layout mode.. If there several auto values for padding-right or padding-right, the calculated space is evenly distributed between all the auto values.
+
+Formal syntax
+
+<length> | <percentage> | auto
+
+*/

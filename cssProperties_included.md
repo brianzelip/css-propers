@@ -100,13 +100,12 @@ padding-top
 
 position
 
+right
+
 table-layout
 
 text-align
 text-decoration
-text-decoration-color
-text-decoration-line
-text-decoration-style
 text-indent
 text-orientation
 text-overflow

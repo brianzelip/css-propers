@@ -1,0 +1,46 @@
+.padding-bottom--auto: { padding-bottom: auto; }
+.padding-bottom--inherit: { padding-bottom: inherit; }
+.padding-bottom--initial: { padding-bottom: initial; }
+.padding-bottom--unset: { padding-bottom: unset; }
+.padding-bottom--0: { padding-bottom: 0; }
+.padding-bottom--1: { padding-bottom: .5rem; }
+.padding-bottom--2: { padding-bottom: 1rem; }
+.padding-bottom--3: { padding-bottom: 2rem; }
+.padding-bottom--4: { padding-bottom: 3rem; }
+.padding-bottom--5: { padding-bottom: 4rem; }
+.padding-bottom--6: { padding-bottom: 5rem; }
+.padding-bottom--7: { padding-bottom: 6rem; }
+.padding-bottom--8: { padding-bottom: 7rem; }
+.padding-bottom--9: { padding-bottom: 8rem; }
+.padding-bottom--10: { padding-bottom: 9rem; }
+.padding-bottom--11: { padding-bottom: 10rem; }
+
+/*
+
+Syntax
+/* <length> values */
+/*padding-bottom: 10px;  /* An absolute length */
+/*padding-bottom: 1em;   /* A length relative to the text size */
+/*padding-bottom: 5%;    /* A padding relative to the nearest block container's width */
+
+/* Keyword values */
+/*padding-bottom: auto;
+
+/* Global values */
+/*padding-bottom: inherit;
+padding-bottom: initial;
+padding-bottom: unset;
+Values
+
+<length>
+Is a <length> specifying a fixed width: it can be absolute width, e.g. in px, or a width relative to the text size, e.g. in em, or relative to the viewport size, e.g. in vh.
+<percentage>
+Is a <percentage> relative to the width of the nearest containing block.
+auto
+Is a keyword indicating that the bottom padding receives a share of the remaining space, defined mainly by the current layout mode.. If there several auto values for padding-bottom or padding-right, the calculated space is evenly distributed between all the auto values.
+
+Formal syntax
+
+<length> | <percentage> | auto
+
+*/

@@ -1,0 +1,47 @@
+/* Overflow behavior at line end
+   Right end if ltr, left end if rtl */
+.text-overflow--clip: { text-overflow: clip; }
+.text-overflow--ellipsis: { text-overflow: ellipsis; }
+.text-overflow--string: { text-overflow: "…"; }
+
+/* Overflow behavior at left end | at right end
+   Directionality has no influence */
+.text-overflow--clip-ellipsis: { text-overflow: clip ellipsis; }
+.text-overflow--string-string: { text-overflow: "…" "…"; }
+
+/* Global values */
+.text-overflow--inherit: { text-overflow: inherit; }
+.text-overflow--initial: { text-overflow: initial; }
+.text-overflow--unset: { text-overflow: unset; }
+
+/*
+
+Syntax
+/* Overflow behavior at line end
+   Right end if ltr, left end if rtl */
+/*text-overflow: clip;
+text-overflow: ellipsis;
+text-overflow: "…";
+
+/* Overflow behavior at left end | at right end
+   Directionality has no influence */
+/*text-overflow: clip ellipsis;
+text-overflow: "…" "…";
+
+/* Global values */
+/*text-overflow: inherit;
+text-overflow: initial;
+text-overflow: unset;
+Values
+
+clip
+This keyword value indicates to truncate the text at the limit of the content area, therefore the truncation can happen in the middle of a character. To truncate at the transition between two characters, the empty string value ('') must be used. The value clip is the default for this property.
+ellipsis
+This keyword value indicates to display an ellipsis ('…', U+2026 HORIZONTAL ELLIPSIS) to represent clipped text. The ellipsis is displayed inside the content area, decreasing the amount of text displayed. If there is not enough space to display the ellipsis, it is clipped.
+<string>
+The <string> to be used to represent clipped text. The string is displayed inside the content area, shortening more the size of the displayed text. If there is not enough place to display the string itself, it is clipped.
+Formal syntax
+
+[ clip | ellipsis | <string> ]{1,2}
+
+*/

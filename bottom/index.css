@@ -11,4 +11,4 @@ bottom: 2.4em;
 .bottom--inherit: { bottom: inherit; }
 
 /* absolute length values */
-.bottom0 { bottom: 0; }
+.bottom--0 { bottom: 0; }
